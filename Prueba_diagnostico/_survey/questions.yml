@@ -1,0 +1,104 @@
+# ! JUST READ - don't change the content of this file
+# Question structure extracted from survey.html
+identificacion_nombre_completo:
+  index: 1
+  type: text
+  label: Ingrese su nombre completo
+identificacion_rut:
+  index: 2
+  type: text
+  label: Ingrese su RUT (sin puntos ni guión)
+q04_estadistica:
+  index: 3
+  type: mc
+  label: ¿Qué mide la desviación estándar?
+  options:
+    a) El valor promedio de los datos: a
+    b) La relación entre dos variables: b
+    c) La distancia de los valores respecto a la media: c
+    d) La diferencia entre el valor máximo y mínimo de los datos: d
+q05_estadistica:
+  index: 4
+  type: mc
+  label: Si una variable tiene valores muy extremos (outliers), ¿qué medida de tendencia
+    central es más robusta?
+  options:
+    a) Media: a
+    b) Mediana: b
+    c) Moda: c
+    d) Varianza: d
+q06_estadistica:
+  index: 5
+  type: mc
+  label: Una distribución de datos que posee una  asimetría positiva
+  options:
+    a) Tiene sus datos concentrados en torno al promedio: a
+    b) Posee una cola hacia la derecha: b
+    c) Tiene sus datos dispersos en torno al promedio: c
+    d) Posee una cola hacia la izquierda: d
+q09_estadistica:
+  index: 6
+  type: mc
+  label: ¿Cuál sería un ejemplo de variable con distribución de poisson?
+  options:
+    a) Temperatura: a
+    b) Números de robos en una esquina: b
+    c) Promedio de ingresos para la región de Aysén: c
+    d) Bebés prematuros en Chile para el 2025: d
+q07_politicas_publicas:
+  index: 7
+  type: mc
+  label: ¿Qué busca identificar una evaluación de impacto?
+  options:
+    a) El costo total de una política: a
+    b) Si los cambios observados se deben a la intervención: b
+    c) La satisfacción de los beneficiarios de la iniciativa: c
+    d) Medidas para mejorar la implementación de la intervención: d
+q10_politicas_publicas:
+  index: 8
+  type: mc
+  label: ¿Cuál es el error qué aparece en el siguiente gráfico?
+  options:
+    a) Los porcentajes no suman 100: a
+    b) No hay errores en la figura: b
+    c) Los colores del área están mal distribuidas: c
+    d) Errores ortográficos: d
+q01_programacion:
+  index: 9
+  type: mc
+  label: ¿Qué hace la siguiente línea de código? “x <- 5”
+  options:
+    a) Compara si x es igual a 5: a
+    b) Asigna el valor 5 a x: b
+    c) Genera una suma hasta 5: c
+    d) Genera un objeto de largo 5: d
+q02_programacion:
+  index: 10
+  type: mc
+  label: ¿Cuál de los siguientes es un objeto válido en R para almacenar una lista
+    de números?
+  options:
+    a) vector(1,2,3): a
+    b) list[1,2,3]: b
+    c) v(1,2,3): c
+    d) c(1,2,3): d
+q03_programacion:
+  index: 11
+  type: mc
+  label: ¿Cuál es el resultado de la siguiente operación? “ ‘hola’ + 1”
+  options:
+    a) Error: a
+    b) hola + 1: b
+    c) hola1: c
+    d) hola: d
+q08_programacion:
+  index: 12
+  type: mc
+  label: Si tengo vectores numéricos con distinta cantidad de valores (largo) al sumarlos.
+    ¿Se genera algún error?
+  options:
+    a) No. R no tiene problemas con vectores de distinto largo.: a
+    b) Me genera un error, pues no puedo sumar vectores de distinto largo.: b
+    c) Ejecuta la suma, pero con un mensaje de advertencia indicando una dedición tomada.: c
+    d) Ninguna de las anteriores.: d
+

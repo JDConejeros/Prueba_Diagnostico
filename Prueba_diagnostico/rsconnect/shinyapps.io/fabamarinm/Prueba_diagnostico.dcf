@@ -1,0 +1,12 @@
+name: Prueba_diagnostico
+title: Prueba_diagnostico
+username: fabamarinm
+account: fabamarinm
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17341217
+bundleId: 11981246
+url: https://fabamarinm.shinyapps.io/Prueba_diagnostico/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
