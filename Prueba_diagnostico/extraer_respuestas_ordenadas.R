@@ -16,21 +16,25 @@ if (guardar_copia_origen) {
   write.csv(resultados, archivo_origen, row.names = FALSE, fileEncoding = "UTF-8")
 }
 
-# Detecta columnas de preguntas tipo qNN_...
-cols_preguntas <- grep("^q[0-9]{2}_", names(resultados), value = TRUE)
+# Detecta columnas de preguntas tipo q1_..., q01_..., q10_..., q100_...
+cols_preguntas <- grep("^q[0-9]+_", names(resultados), value = TRUE)
 
 if (length(cols_preguntas) == 0) {
-  stop("No se encontraron columnas de preguntas con formato qNN_.", call. = FALSE)
+  stop("No se encontraron columnas de preguntas con formato q<number>_.", call. = FALSE)
 }
 
-# Ordena preguntas por el numero NN
-num_pregunta <- as.integer(sub("^q([0-9]{2})_.*$", "\\1", cols_preguntas))
+# Ordena preguntas por el numero detectado en el identificador
+num_pregunta <- as.integer(sub("^q([0-9]+)_.*$", "\\1", cols_preguntas))
 cols_preguntas_ordenadas <- cols_preguntas[order(num_pregunta)]
 
-# Define columnas base
-cols_base <- c("identificacion_nombre_completo", "identificacion_rut")
+# Define columnas de identificacion
+cols_identificacion <- grep("^identificacion", names(resultados), value = TRUE)
 
-faltantes <- setdiff(cols_base, names(resultados))
+if (length(cols_identificacion) == 0) {
+  stop("No se encontraron columnas de identificacion con prefijo 'identificacion'.", call. = FALSE)
+}
+
+faltantes <- setdiff(cols_identificacion, names(resultados))
 if (length(faltantes) > 0) {
   stop(
     sprintf("Faltan columnas requeridas: %s", paste(faltantes, collapse = ", ")),
@@ -39,10 +43,7 @@ if (length(faltantes) > 0) {
 }
 
 # Arma tabla final
-salida <- resultados[, c(cols_base, cols_preguntas_ordenadas), drop = FALSE]
-
-# Renombra columnas para salida amigable
-names(salida)[1:2] <- c("nombre_completo", "rut")
+salida <- resultados[, c(cols_identificacion, cols_preguntas_ordenadas), drop = FALSE]
 
 # Lee pauta y calcula nivel de exito
 pauta <- read_excel(archivo_pauta)
