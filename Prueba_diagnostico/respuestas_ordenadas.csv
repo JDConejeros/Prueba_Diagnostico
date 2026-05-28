@@ -1,4 +1,44 @@
-"nombre_completo","rut","q01_programacion","q02_programacion","q03_programacion","q04_estadistica","q05_estadistica","q06_estadistica","q07_politicas_publicas","q08_programacion","q09_estadistica","q10_politicas_publicas","cantidad_respuestas_correctas","porcentaje_logro"
-"Prueba 3","202981232","c","d","d","b","c","d","a","c","d","a",2,20
-"Prueba 2","202981232","a","b","a","c","b","d","b","b","a","c",5,50
-"prueba 3","1231231","b","d","a","c","b","b","b","c","b","c",10,100
+"identificacion_nombre_completo","identificacion_rut","identificacion_correo","q01_programacion","q02_programacion","q03_programacion","q04_estadistica","q05_estadistica","q06_estadistica","q07_politicas_publicas","q08_programacion","q09_estadistica","q10_politicas_publicas","cantidad_respuestas_correctas","porcentaje_logro"
+"Rogger Alexander Bustamante Murrugarra","43557871","rogger.bustamante@pucp.pe","b","b","d","c","b","b","b","c","c","c",7,70
+"Fernanda Ignacia Alburquerque Arancibia","19089505K","fernandalburquerque@gmail.com","b","d","a","c","b","b","b","c","a","c",9,90
+"David Adrián Barboza Ancoma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0
+"Edith Cárcamo","0801200113824","eme.carcamohn@gmail.com","b","b","a","c","b","b","b","b","b","c",8,80
+"Carlos Eduardo Navarro Eckholt","170828399","cunavarr@uc.cl","b","d","a","c","b","b","b","c","b","b",9,90
+"Juan Luis Huayhua Velez","DNI 76581780","juanluishuayhua20@gmail.com","b","b","a","c","b","b","b","c","a","c",8,80
+"Elizabeth Llanquin Salinas","160921757","eliza0925@gmail.com","b","b","a","c","d","b","b","a","b","c",7,70
+"Iana Karina Rivera Jofré","124690625","ianakarina@gmail.com","a","b","c","c","b","b","b","c","b","c",7,70
+"Muriel Flores Molina","191855485","murielflores.molina@gmail.com","d","d","b","c","b","c","b","c","a","c",6,60
+"Fabian moreno castillo","19208671K","fabianandres13087@gmail.com","b","b","a","c","b","b","b","a","b","c",8,80
+"nicholas kluttig","20665371k","nicholaskluttig@gmail.com","b","d","a","c","a","c","a","c","b","c",7,70
+"Úrsula Godoy Miranda","201632854","ursulagm00@gmail.com","b","d","a","c","b","b","b","c","d","c",9,90
+"Ricardo Andrés León Córdova","206770635","ricardoleonc76@gmail.com","b","b","a","c","b","b","b","c","b","c",9,90
+"Oswaldo Junior Castellar Morales","PO068372","ocastellarm@gmail.com","b","d","a","c","b","b","b","d","b","c",9,90
+"Paulina Andrea Vargas Novoa","164962261","pvargasnovoa@gmail.com","d","c","a","c","b","b","b","a","a","c",6,60
+"Nuvia Natalia Rosas Zambrano","180575243","nuvia.rosas.zambrano@gmail.com","b","c","a","c","b","b","b","b","a","c",7,70
+"Andrea Nicole Romero Pérez","70899225","andrea.romperez@gmail.com","b","b","b","c","d","b","b","b","b","c",6,60
+"Christian Jesús Silvera Guardales","72666274","silver07641303@gmail.com","b","d","a","c","b","b","b","a","b","c",9,90
+"Teresita Eguiguren Strappa","196401725","tereseguiguren@gmail.com","d","b","b","c","b","b","b","b","b","c",6,60
+"Javier Ignacio Castro García","196891412","javiercastrogarcia@outlook.com","b","d","b","c","b","b","b","c","b","c",9,90
+"Sofía Alejandra Estrada Cely","1010235723","abrileselmes@gmail.com","b","a","a","c","c","b","b","c","b","c",8,80
+"Lía Barrios","19032042-1","lbarrios@fen.uchile.cl","b","d","c","c","b","b","b","c","b","c",9,90
+"Carli Bravo","174034303","cmbravoy@gmail.com","a","b","b","c","b","b","b","c","d","c",6,60
+"Ignacia Francisca Aguilera Fuentes","198383538","iaguilera@generadoras.cl","b","b","a","c","b","a","b","a","d","b",5,50
+"Nicolás Borgoño Becerra","184328666","nicolasbor93@gmail.com","c","b","b","c","c","b","b","d","b","c",5,50
+"Roberto Acosta Dighero","158304368","acostadighero@gmail.com","a","d","a","c","b","d","c","c","a","c",6,60
+"matías hernán yañez pohl","168459948k","myanezp@cchc.cl","b","d","a","c","b","b","b","c","b","c",10,100
+"Nicolás Germán Lira Blamey","189342217","nicolas.lira@ug.uchile.cl","b","c","c","c","b","b","b","c","b","c",8,80
+"Ignacio Ariel Flores Brunaud","204522979","ignacioflb@gmail.com","c","b","a","c","a","a","c","d","d","c",3,30
+"Myriam Amparo Naranjo Grijalva","1716764194","amparitonaranjo@gmail.com","c","b","c","c","b","b","b","a","d","c",5,50
+"Roberto Garcés","179962632","rigarcesc@gmail.com","b","c","a","c","b","c","b","c","d","c",7,70
+"Francisco Rodríguez Alhucema","195396159","francisco.rodriguez@ug.uchile.cl","a","b","b","c","c","b","b","b","a","c",4,40
+"Joaquín de Camino","20432176-0","joacodecamino@gmail.com","a","d","a","c","d","b","b","c","a","c",7,70
+"David Adrián Barboza Ancoma","193556647","dbarboza.ancoma@gmail.com","b","d","c","c","b","b","d","d","a","c",6,60
+"Gonzalo Pichuante Cruz","18766060-2","gpichuantec@gmail.com","d","b","a","c","b","b","b","c","a","c",7,70
+"francisca mejias","193186491","francisca.mejias123@gmail.com","b","b","b","c","b","b","c","a","a","c",5,50
+"Mathias Alonso Cornejo","198498157","alonso.c.mathias@gmail.com","b","d","a","c","b","b","b","c","b","c",10,100
+"Javiera Constanza Cid Vargas","198024481","jcidv@alumni.uc.cl","b","d","a","c","b","b","b","c","b","c",10,100
+"Luis Felipe Valenzuela","200750187","luisfelipe.valenzuela@gmail.com","b","c","b","c","a","b","b","b","d","c",5,50
+"Roberto Beltrán Galleguillos","192718759","beltrangalleguillos.r@gmail.com","b","b","a","c","b","d","b","a","b","c",7,70
+"Daniela Díaz","169365202","dtdiaz@uc.cl","b","b","a","c","b","c","b","b","d","c",6,60
+"Matías Sebastián Beas Lagos","17.317.051-3","mbeaslagos@gmail.com","c","b","c","c","b","b","b","a","d","c",5,50
+"Valentina Belén Martínez Cortés","210898670","v.martinez.10@ug.uchile.cl","b","d","a","c","b","b","b","c","b","c",10,100
