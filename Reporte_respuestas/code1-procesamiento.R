@@ -93,4 +93,4 @@ data_final <- data_final |>
 glimpse(data_final)
 
 # Guardamos los datos 
-rio::export(data_final, "Reporte_respuestas/respuestas_procesadas.csv")
+rio::export(data_final, "Reporte_respuestas/respuestas_procesadas.RDS")
