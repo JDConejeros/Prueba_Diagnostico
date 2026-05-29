@@ -35,6 +35,22 @@ data_prol <- data_pro |>
   rename(correo = identificacion_correo) |>
   select(id, nombre, correo, q, respuesta)
 
+# Generamos área de estudio 
+data_prol <- data_prol |> 
+  mutate(
+    area_estudio = case_when(
+      str_detect(q, "q01|q02|q03|q09") ~ "Programación",
+      str_detect(q, "q04|q05|q06|q08") ~ "Estadística",
+      str_detect(q, "q07|q10") ~ "Políticas Públicas",
+      TRUE ~ NA_character_
+    ),
+    area_estudio = factor(area_estudio, 
+      levels = c(
+        "Estadística", 
+        "Programación", 
+        "Políticas Públicas")) 
+  )
+
 glimpse(data_prol)
 
 # Unimos con la pauta 
